@@ -4,7 +4,7 @@ import playStoreImg from '../../assets/gPlay.png';
 
 const Banner = () => {
   return (
-    <section className='text-center py-20  bg-[#f1f1f1] flex flex-col  justify-center items-center gap-10 px-4 md:px-20'>
+    <section className='text-center pt-20  bg-[#f1f1f1] flex flex-col  justify-center items-center gap-10 px-4 md:px-20'>
       <div>
         <h1 className='text-7xl  mb-4'>
           We Build
