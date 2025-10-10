@@ -1,0 +1,542 @@
+[
+  {
+    "image": "https://play.google.com/store/apps/details?id=com.whatsapp",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 1,
+    "description": "Simple. Reliable. Secure. - End-to-end encryption for private conversations. - Speak freely with confident privacy. - Group video calls with up to 32 people.",
+    "size": 234,
+    "reviews": 51500000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 10000000 },
+      { "name": "5 star", "count": 25500000 }
+    ]
+  },
+  {
+    "image": "https://play.google.com/store/apps/details?id=com.instagram.android",
+    "title": "Instagram",
+    "companyName": "Instagram",
+    "id": 2,
+    "description": "Create & share photos, stories, reels, and videos with your friends and family.",
+    "size": 45,
+    "reviews": 38000000,
+    "ratingAvg": 4.0,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 7600000 },
+      { "name": "2 star", "count": 1900000 },
+      { "name": "3 star", "count": 5700000 },
+      { "name": "4 star", "count": 11400000 },
+      { "name": "5 star", "count": 11400000 }
+    ]
+  },
+  {
+    "image": "https://play.google.com/store/apps/details?id=com.facebook.katana",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 3,
+    "description": "Connect with friends and the world around you on Facebook.",
+    "size": 567,
+    "reviews": 45000000,
+    "ratingAvg": 3.9,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 11250000 },
+      { "name": "2 star", "count": 4500000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 13500000 },
+      { "name": "5 star", "count": 6750000 }
+    ]
+  },
+  {
+    "image": "https://play.google.com/store/apps/details?id=com.tiktok.musically",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 4,
+    "description": "TikTok - Make Your Day. Watch, create, and share short videos with effects and music.",
+    "size": 102,
+    "reviews": 48000000,
+    "ratingAvg": 4.4,
+    "downloads": 4000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5760000 },
+      { "name": "2 star", "count": 2880000 },
+      { "name": "3 star", "count": 5760000 },
+      { "name": "4 star", "count": 14400000 },
+      { "name": "5 star", "count": 21120000 }
+    ]
+  },
+  {
+    "image": "https://play.google.com/store/apps/details?id=com.facebook.orca",
+    "title": "Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 5,
+    "description": "Connect with your Instagram friends to share photos, videos, and messages.",
+    "size": 56,
+    "reviews": 42000000,
+    "ratingAvg": 3.8,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 12600000 },
+      { "name": "2 star", "count": 4200000 },
+      { "name": "3 star", "count": 8400000 },
+      { "name": "4 star", "count": 12600000 },
+      { "name": "5 star", "count": 4200000 }
+    ]
+  },
+  {
+    "image": "https://play.google.com/store/apps/details?id=com.snapchat.android",
+    "title": "Snapchat",
+    "companyName": "Snap Inc",
+    "id": 6,
+    "description": "Share your world. See what your friends are up to. Discover new things.",
+    "size": 78,
+    "reviews": 29000000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 4640000 },
+      { "name": "2 star", "count": 1740000 },
+      { "name": "3 star", "count": 2900000 },
+      { "name": "4 star", "count": 8700000 },
+      { "name": "5 star", "count": 11600000 }
+    ]
+  },
+  {
+    "image": "https://play.google.com/store/apps/details?id=com.bytedance.tiktok",
+    "title": "CapCut - Video Editor",
+    "companyName": "Bytedance Pte. Ltd.",
+    "id": 7,
+    "description": "CapCut is a free all-in-one video editor and video maker application with everything you need to create stunning, high-quality videos.",
+    "size": 198,
+    "reviews": 24000000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 4800000 },
+      { "name": "5 star", "count": 14400000 }
+    ]
+  },
+  {
+    "image": "https://play.google.com/store/apps/details?id=org.telegram.messenger",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 8,
+    "description": "Fast. Secure. Powerful. Pure instant messaging — simple, fast, secure, and synced across all your devices.",
+    "size": 34,
+    "reviews": 21000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2520000 },
+      { "name": "2 star", "count": 630000 },
+      { "name": "3 star", "count": 1260000 },
+      { "name": "4 star", "count": 6300000 },
+      { "name": "5 star", "count": 9450000 }
+    ]
+  },
+  {
+    "image": "https://play.google.com/store/apps/details?id=com.spotify.music",
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "id": 9,
+    "description": "Explore premium sound quality, exclusive playlists, and an unmatched library of songs and podcasts.",
+    "size": 89,
+    "reviews": 35000000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 2100000 },
+      { "name": "2 star", "count": 1050000 },
+      { "name": "3 star", "count": 2100000 },
+      { "name": "4 star", "count": 10500000 },
+      { "name": "5 star", "count": 17500000 }
+    ]
+  },
+  {
+    "image": "https://play.google.com/store/apps/details?id=com.google.android.youtube",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 10,
+    "description": "Enjoy videos, music, and live streams with your friends and the world.",
+    "size": 123,
+    "reviews": 52000000,
+    "ratingAvg": 4.2,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 6240000 },
+      { "name": "2 star", "count": 2080000 },
+      { "name": "3 star", "count": 4160000 },
+      { "name": "4 star", "count": 10400000 },
+      { "name": "5 star", "count": 26000000 }
+    ]
+  },
+  {
+    "image": "https://play.google.com/store/apps/details?id=com.netflix.mediaclient",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 11,
+    "description": "Watch TV shows and movies recommended for you. Download them for offline viewing.",
+    "size": 145,
+    "reviews": 18000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2160000 },
+      { "name": "2 star", "count": 720000 },
+      { "name": "3 star", "count": 1440000 },
+      { "name": "4 star", "count": 4320000 },
+      { "name": "5 star", "count": 9720000 }
+    ]
+  },
+  {
+    "image": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 12,
+    "description": "Navigate your world faster and easier with Google Maps. Get real-time GPS navigation, traffic, and transit info.",
+    "size": 67,
+    "reviews": 30000000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3600000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 2400000 },
+      { "name": "4 star", "count": 7200000 },
+      { "name": "5 star", "count": 15600000 }
+    ]
+  },
+  {
+    "image": "https://play.google.com/store/apps/details?id=com.google.android.gm",
+    "title": "Gmail - Email by Google",
+    "companyName": "Google LLC",
+    "id": 13,
+    "description": "Email by Google with spam protection, offline access, and more.",
+    "size": 45,
+    "reviews": 28000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2800000 },
+      { "name": "2 star", "count": 840000 },
+      { "name": "3 star", "count": 1680000 },
+      { "name": "4 star", "count": 5040000 },
+      { "name": "5 star", "count": 15400000 }
+    ]
+  },
+  {
+    "image": "https://play.google.com/store/apps/details?id=com.openai.chatgpt",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 14,
+    "description": "Ask anything. ChatGPT is the best AI chatbot for all your needs.",
+    "size": 156,
+    "reviews": 1200000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 36000 },
+      { "name": "2 star", "count": 24000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 396000 }
+    ]
+  },
+  {
+    "image": "https://play.google.com/store/apps/details?id=com.temu.global",
+    "title": "Temu: Shop Like a Billionaire",
+    "companyName": "Temu",
+    "id": 15,
+    "description": "Shop the latest trends at incredible prices. Discover amazing deals on fashion, home, and more.",
+    "size": 234,
+    "reviews": 2500000,
+    "ratingAvg": 4.2,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 125000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 750000 },
+      { "name": "5 star", "count": 1125000 }
+    ]
+  },
+  {
+    "image": "Google Chrome icon: Red, green, yellow, blue swirl forming a sphere",
+    "title": "Google Chrome: Fast & Secure",
+    "companyName": "Google LLC",
+    "id": 16,
+    "description": "Browse fast and type less. Choose your favorite search engine and get personalized results. Sync your bookmarks, passwords, and history across devices.",
+    "size": 120,
+    "reviews": 45000000,
+    "ratingAvg": 4.2,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 4500000 },
+      { "name": "2 star", "count": 2250000 },
+      { "name": "3 star", "count": 4500000 },
+      { "name": "4 star", "count": 13500000 },
+      { "name": "5 star", "count": 18000000 }
+    ]
+  },
+  {
+    "image": "Threads icon: Purple thread spool with white string",
+    "title": "Threads",
+    "companyName": "Instagram",
+    "id": 17,
+    "description": "Join the conversation! Share text updates, photos, and videos up to 500 characters. Connect with friends and follow creators.",
+    "size": 89,
+    "reviews": 15000000,
+    "ratingAvg": 3.9,
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 750000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 4500000 },
+      { "name": "5 star", "count": 6750000 }
+    ]
+  },
+  {
+    "image": "Shein icon: Pink shopping bag with black strap",
+    "title": "SHEIN-Fashion Shopping Online",
+    "companyName": "SHEIN",
+    "id": 18,
+    "description": "Shop trendy women's, men's, kids' clothing, shoes, jewelry, and more at affordable prices. New arrivals daily.",
+    "size": 156,
+    "reviews": 22000000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2200000 },
+      { "name": "2 star", "count": 1100000 },
+      { "name": "3 star", "count": 2200000 },
+      { "name": "4 star", "count": 6600000 },
+      { "name": "5 star", "count": 9900000 }
+    ]
+  },
+  {
+    "image": "Roblox icon: Black 'R' on a green background",
+    "title": "Roblox",
+    "companyName": "Roblox Corporation",
+    "id": 19,
+    "description": "Join millions of people and discover an infinite variety of immersive user-generated 3D experiences. Create your own worlds with Roblox Studio.",
+    "size": 234,
+    "reviews": 35000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3500000 },
+      { "name": "2 star", "count": 1750000 },
+      { "name": "3 star", "count": 3500000 },
+      { "name": "4 star", "count": 10500000 },
+      { "name": "5 star", "count": 15750000 }
+    ]
+  },
+  {
+    "image": "Google Drive icon: Green triangle with yellow, blue, and red corners",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 20,
+    "description": "Store, sync, and share files with 15 GB of free storage. Edit documents, spreadsheets, and presentations on the go.",
+    "size": 78,
+    "reviews": 28000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2800000 },
+      { "name": "2 star", "count": 1400000 },
+      { "name": "3 star", "count": 2800000 },
+      { "name": "4 star", "count": 8400000 },
+      { "name": "5 star", "count": 14000000 }
+    ]
+  },
+  {
+    "image": "Amazon Shopping icon: Orange arrow smiling inside a black shopping cart",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 21,
+    "description": "Buy millions of products from the world's largest online retailer. Get personalized recommendations and fast delivery with Prime.",
+    "size": 345,
+    "reviews": 32000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1600000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1600000 },
+      { "name": "4 star", "count": 6400000 },
+      { "name": "5 star", "count": 21600000 }
+    ]
+  },
+  {
+    "image": "MyJio icon: Blue and yellow circle with white 'J'",
+    "title": "MyJio",
+    "companyName": "Jio Platforms Limited",
+    "id": 22,
+    "description": "Manage your Jio services, recharge plans, pay bills, and access exclusive offers. Track data usage and more.",
+    "size": 67,
+    "reviews": 18000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1800000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 1800000 },
+      { "name": "4 star", "count": 5400000 },
+      { "name": "5 star", "count": 8100000 }
+    ]
+  },
+  {
+    "image": "Truecaller icon: Green phone receiver with white checkmark",
+    "title": "Truecaller: Caller ID & Block",
+    "companyName": "Truecaller",
+    "id": 23,
+    "description": "Identify unknown callers, block spam, and manage your contacts. Get notified of important calls.",
+    "size": 123,
+    "reviews": 25000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1250000 },
+      { "name": "2 star", "count": 625000 },
+      { "name": "3 star", "count": 1250000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 11250000 }
+    ]
+  },
+  {
+    "image": "Candy Crush Saga icon: Colorful candy pieces exploding",
+    "title": "Candy Crush Saga",
+    "companyName": "King",
+    "id": 24,
+    "description": "Match 3 candies to blast through levels. Join Tiffi and Mr. Toffee on a delicious journey.",
+    "size": 89,
+    "reviews": 30000000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 19200000 }
+    ]
+  },
+  {
+    "image": "Free Fire icon: Fiery phoenix logo in orange and black",
+    "title": "Garena Free Fire",
+    "companyName": "Garena International I",
+    "id": 25,
+    "description": "Survival shooter game with 50 players parachuting onto an island. Last one standing wins.",
+    "size": 567,
+    "reviews": 42000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 6300000 },
+      { "name": "2 star", "count": 2100000 },
+      { "name": "3 star", "count": 4200000 },
+      { "name": "4 star", "count": 12600000 },
+      { "name": "5 star", "count": 16800000 }
+    ]
+  },
+  {
+    "image": "Waze icon: Blue car with green route line",
+    "title": "Waze Navigation & Live Traffic",
+    "companyName": "Waze",
+    "id": 26,
+    "description": "Real-time GPS navigation with community-reported traffic, hazards, and police alerts.",
+    "size": 56,
+    "reviews": 15000000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 750000 },
+      { "name": "2 star", "count": 375000 },
+      { "name": "3 star", "count": 750000 },
+      { "name": "4 star", "count": 2250000 },
+      { "name": "5 star", "count": 10125000 }
+    ]
+  },
+  {
+    "image": "Discord icon: Blue, indigo, violet gradient blob",
+    "title": "Discord - Talk, Video, Chat",
+    "companyName": "Discord Inc.",
+    "id": 27,
+    "description": "Voice, video, and text chat app for communities. Perfect for gaming, friends, and teams.",
+    "size": 145,
+    "reviews": 12000000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 8100000 }
+    ]
+  },
+  {
+    "image": "Canva icon: Purple background with white 'C'",
+    "title": "Canva: Design, Photo & Video",
+    "companyName": "Canva",
+    "id": 28,
+    "description": "Create stunning graphics, presentations, posters, and videos with easy-to-use templates.",
+    "size": 78,
+    "reviews": 8000000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 160000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 240000 },
+      { "name": "4 star", "count": 960000 },
+      { "name": "5 star", "count": 5600000 }
+    ]
+  },
+  {
+    "image": "Duolingo icon: Green owl mascot",
+    "title": "Duolingo: Language Lessons",
+    "companyName": "Duolingo",
+    "id": 29,
+    "description": "Learn a language for free. Bite-sized lessons in Spanish, French, German, and more.",
+    "size": 45,
+    "reviews": 18000000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 450000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 3600000 },
+      { "name": "5 star", "count": 11700000 }
+    ]
+  },
+  {
+    "image": "Subway Surfers icon: Boy running from train with graffiti art",
+    "title": "Subway Surfers",
+    "companyName": "SYBO Games",
+    "id": 30,
+    "description": "Dash through subways, dodge trains, and collect coins in this endless runner game.",
+    "size": 234,
+    "reviews": 28000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1400000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1400000 },
+      { "name": "4 star", "count": 5600000 },
+      { "name": "5 star", "count": 18900000 }
+    ]
+  }
+]
