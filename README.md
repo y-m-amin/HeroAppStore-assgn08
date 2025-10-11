@@ -1,17 +1,32 @@
-# React + Vite
+# 🧩 HERO.IO App Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application where users can explore, install, and manage different apps — inspired by an app marketplace design.  
+Built with **React Router**, **TailwindCSS**, and enhanced using modern UI libraries for smooth interactions and a polished interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📝 Description
 
-## React Compiler
+Hero App Store is a single-page React application demonstrating routing, reusable components, and local storage-based data handling.  
+Users can browse a list of apps, view app details, and manage installed apps.  
+It includes custom error pages, formatted statistics (like download counts), and responsive design using TailwindCSS and DaisyUI.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ⚙️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# HeroAppStore-assgn08
+| Technology | Description | Link |
+|-------------|-------------|------|
+| **React** | Core library for building the user interface | [React Docs](https://react.dev/) |
+| **React Router** | Handles client-side routing and navigation | [React Router](https://reactrouter.com/home) |
+| **TailwindCSS** | Utility-first CSS framework for fast UI development | [TailwindCSS Docs](https://tailwindcss.com/docs/installation/using-vite) |
+| **DaisyUI** | TailwindCSS component library for elegant UI elements | [DaisyUI Docs](https://daisyui.com/docs/intro/) |
+| **React Icons** | Collection of popular icon libraries for React | [React Icons](https://react-icons.github.io/react-icons/) |
+| **React Toastify** | Lightweight notifications for success/error messages | [React Toastify](https://fkhadra.github.io/react-toastify/introduction) |
+| **React Loading Skeleton** | Placeholder loading skeleton for better UX | [React Loading Skeleton](https://github.com/dvtng/react-loading-skeleton) |
+| **Recharts** | A composable charting library built on react components | [Recharts](https://recharts.org/en-US/guide/installation) |
+
+---
+
+
+
