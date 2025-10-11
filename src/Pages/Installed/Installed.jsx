@@ -18,10 +18,10 @@ const Installed = () => {
     setApps(stored);
   }, []);
 
-  const handleUninstall = (id) => {
+  const handleUninstall = (id, title) => {
     uninstallApp(id);
     setApps(getInstalledApps());
-    toast.success('App uninstalled successfully!');
+    toast.success(`${title} uninstalled successfully!`);
   };
 
   // Sorting logic
@@ -33,6 +33,8 @@ const Installed = () => {
       sorted.sort((a, b) => b.downloads - a.downloads);
     } else if (criteria === 'Ratings') {
       sorted.sort((a, b) => b.ratingAvg - a.ratingAvg);
+    } else if (criteria === 'Size') {
+      sorted.sort((a, b) => b.size - a.size);
     }
 
     setApps(sorted);
@@ -47,10 +49,9 @@ const Installed = () => {
           {apps.length} Apps Found
         </p>
 
-        {/* Sort Dropdown */}
         <div className='dropdown dropdown-start'>
           <div tabIndex={0} role='button' className='btn m-1'>
-            Sort By {sortBy ? `(${sortBy})` : '⬇️'}
+            Sort By {sortBy ? `(${sortBy})` : '()'}
           </div>
           <ul
             tabIndex={0}
@@ -62,6 +63,9 @@ const Installed = () => {
             <li>
               <button onClick={() => handleSort('Ratings')}>Ratings</button>
             </li>
+            <li>
+              <button onClick={() => handleSort('Size')}>Size</button>
+            </li>
           </ul>
         </div>
       </div>
@@ -70,7 +74,6 @@ const Installed = () => {
         <ul className='list bg-base-100 rounded-box shadow-md'>
           {apps.map((app) => (
             <li key={app.id} className='list-row items-center'>
-              {/* App icon */}
               <div>
                 <img
                   className='size-12 rounded-box'
@@ -79,25 +82,26 @@ const Installed = () => {
                 />
               </div>
 
-              {/* App details */}
               <div className='flex flex-col'>
                 <div className='font-semibold'>{app.title}</div>
-                {/* Downloads and Rating side by side */}
+
                 <div className='flex gap-2 mt-1'>
-                  <div className='text-sm text-[#00D390] bg-[#F1F5E8] flex items-center gap-1 py-1 px-2 rounded-sm'>
+                  <div className='text-sm text-[#00D390]  flex items-center gap-1 py-1 px-2 rounded-sm'>
                     <FiDownload />
                     {formatDlNumber(app.downloads)}
                   </div>
-                  <div className='text-sm text-[#FF8811] bg-[#FFF0E1] flex items-center gap-1 py-1 px-2 rounded-sm'>
+                  <div className='text-sm text-[#FF8811]  flex items-center gap-1 py-1 px-2 rounded-sm'>
                     <FaStar />
                     {app.ratingAvg}
+                  </div>
+                  <div className='flex items-center text-sm text-[#627382]'>
+                    {app.size} MB
                   </div>
                 </div>
               </div>
 
-              {/* Uninstall button */}
               <button
-                onClick={() => handleUninstall(app.id)}
+                onClick={() => handleUninstall(app.id, app.title)}
                 className='btn btn-sm btn-error text-white ml-auto'
               >
                 Uninstall
@@ -111,7 +115,7 @@ const Installed = () => {
         </p>
       )}
 
-      <ToastContainer position='bottom-right' />
+      <ToastContainer position='bottom-right' autoClose={2000} />
     </div>
   );
 };

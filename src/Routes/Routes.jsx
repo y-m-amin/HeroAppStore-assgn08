@@ -13,8 +13,15 @@ const router = createBrowserRouter([
     errorElement: <ErrPage />,
     children: [
       { index: true, Component: Home },
-      { path: 'apps', Component: AllApps },
-      { path: 'apps/:id', Component: AppDetails },
+      {
+        path: '/apps',
+        Component: AllApps,
+      },
+      {
+        path: 'apps/:id',
+        loader: () => fetch('/appData.json'),
+        Component: AppDetails,
+      },
       { path: 'installed', Component: Installed },
     ],
   },

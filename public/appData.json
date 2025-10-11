@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://picsum.photos/seed/app1/300/300",
+    "image": "https://i.ibb.co/67s5hB4h/demo-app-1.webp",
     "title": "SkyNote",
     "companyName": "BluePeak Labs",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app2/300/300",
+    "image": "https://i.ibb.co/sdnrKdrn/demo-app-3.webp",
     "title": "FitForge",
     "companyName": "VitalMotion",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app3/300/300",
+    "image": "https://i.ibb.co/Tjdhnhv/demo-app-5.webp",
     "title": "PlantPal",
     "companyName": "GreenVerse",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app4/300/300",
+    "image": "https://i.ibb.co/67s5hB4h/demo-app-1.webp",
     "title": "TempoFlow",
     "companyName": "Rhythmbyte",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app5/300/300",
+    "image": "https://i.ibb.co/jPrLTKHF/demo-app-6.webp",
     "title": "MindBridge",
     "companyName": "ClarityWorks",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app6/300/300",
+    "image": "https://i.ibb.co/cKj3BxdZ/demo-app-2.webp",
     "title": "SnapChef",
     "companyName": "TastyPixel",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app7/300/300",
+    "image": "https://i.ibb.co/DgGKBQHf/demo-app-4.webp",
     "title": "TrailBlazer",
     "companyName": "PeakQuest Studios",
     "id": 7,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app8/300/300",
+    "image": "https://i.ibb.co/Tjdhnhv/demo-app-5.webp",
     "title": "BudgetWise",
     "companyName": "FinLit Apps",
     "id": 8,
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app9/300/300",
+    "image": "https://i.ibb.co/sdnrKdrn/demo-app-3.webp",
     "title": "EduQuest",
     "companyName": "BrightBridge Learning",
     "id": 9,
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app10/300/300",
+    "image": "https://i.ibb.co/67s5hB4h/demo-app-1.webp",
     "title": "ArtBoard",
     "companyName": "PixelDream Co.",
     "id": 10,
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app11/300/300",
+    "image": "https://i.ibb.co/cKj3BxdZ/demo-app-2.webp",
     "title": "DreamCatcher",
     "companyName": "LunaSoft",
     "id": 11,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app12/300/300",
+    "image": "https://i.ibb.co/jPrLTKHF/demo-app-6.webp",
     "title": "QuickScan Pro",
     "companyName": "Scanova Tech",
     "id": 12,
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app13/300/300",
+    "image": "https://i.ibb.co/DgGKBQHf/demo-app-4.webp",
     "title": "StorySync",
     "companyName": "Narrativa Studios",
     "id": 13,
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app14/300/300",
+    "image": "https://i.ibb.co/67s5hB4h/demo-app-1.webp",
     "title": "WorkNest",
     "companyName": "Teamology",
     "id": 14,
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app15/300/300",
+    "image": "https://i.ibb.co/cKj3BxdZ/demo-app-2.webp",
     "title": "Langly",
     "companyName": "Polyglot AI",
     "id": 15,
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app16/300/300",
+    "image": "https://i.ibb.co/Tjdhnhv/demo-app-5.webp",
     "title": "HomeSync",
     "companyName": "SmartHive",
     "id": 16,
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app17/300/300",
+    "image": "https://i.ibb.co/jPrLTKHF/demo-app-6.webp",
     "title": "TaskTick",
     "companyName": "ProductiCo",
     "id": 17,
@@ -306,7 +306,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app18/300/300",
+    "image": "https://i.ibb.co/sdnrKdrn/demo-app-3.webp",
     "title": "PulseBeat",
     "companyName": "HeartTech Labs",
     "id": 18,
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app19/300/300",
+    "image": "https://i.ibb.co/67s5hB4h/demo-app-1.webp",
     "title": "TimeCapsule",
     "companyName": "Memoirly",
     "id": 19,
@@ -342,7 +342,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app20/300/300",
+    "image": "https://i.ibb.co/cKj3BxdZ/demo-app-2.webp",
     "title": "CityMapper+",
     "companyName": "TransitIQ",
     "id": 20,
@@ -360,7 +360,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app21/300/300",
+    "image": "https://i.ibb.co/jPrLTKHF/demo-app-6.webp",
     "title": "BrewMate",
     "companyName": "Roast & Co.",
     "id": 21,
@@ -370,15 +370,15 @@
     "ratingAvg": 4.3,
     "downloads": 370000,
     "ratings": [
-      { "name": "1 star", "count": 400 },
+      { "name": "1 star", "count": 2400 },
       { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 1000 },
+      { "name": "3 star", "count": 3000 },
       { "name": "4 star", "count": 1100 },
       { "name": "5 star", "count": 2100 }
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app22/300/300",
+    "image": "https://i.ibb.co/DgGKBQHf/demo-app-4.webp",
     "title": "PetLink",
     "companyName": "TailSoft",
     "id": 22,
@@ -390,13 +390,13 @@
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 1100 },
+      { "name": "3 star", "count": 2100 },
       { "name": "4 star", "count": 2300 },
       { "name": "5 star", "count": 3700 }
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app23/300/300",
+    "image": "https://i.ibb.co/Tjdhnhv/demo-app-5.webp",
     "title": "Cookify",
     "companyName": "KitchenCloud",
     "id": 23,
@@ -406,15 +406,15 @@
     "ratingAvg": 4.7,
     "downloads": 2100000,
     "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 700 },
+      { "name": "1 star", "count": 5500 },
+      { "name": "2 star", "count": 3700 },
       { "name": "3 star", "count": 1300 },
       { "name": "4 star", "count": 3200 },
-      { "name": "5 star", "count": 11300 }
+      { "name": "5 star", "count": 1300 }
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app24/300/300",
+    "image": "https://i.ibb.co/sdnrKdrn/demo-app-3.webp",
     "title": "OrbitView",
     "companyName": "AstroLab",
     "id": 24,
@@ -432,7 +432,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app25/300/300",
+    "image": "https://i.ibb.co/67s5hB4h/demo-app-2.webp",
     "title": "Craftsy",
     "companyName": "Makerly Co.",
     "id": 25,
@@ -442,15 +442,15 @@
     "ratingAvg": 4.6,
     "downloads": 890000,
     "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 700 },
+      { "name": "1 star", "count": 22500 },
+      { "name": "2 star", "count": 33700 },
       { "name": "3 star", "count": 1200 },
       { "name": "4 star", "count": 2800 },
-      { "name": "5 star", "count": 7600 }
+      { "name": "5 star", "count": 200 }
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app26/300/300",
+    "image": "https://i.ibb.co/67s5hB4h/demo-app-1.webp",
     "title": "ZenClock",
     "companyName": "Calmiq",
     "id": 26,
@@ -468,7 +468,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app27/300/300",
+    "image": "https://i.ibb.co/67s5hB4h/demo-app-4.webp",
     "title": "TrailCam Vision",
     "companyName": "WildByte Systems",
     "id": 27,
@@ -486,7 +486,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app28/300/300",
+    "image": "https://i.ibb.co/67s5hB4h/demo-app-5.webp",
     "title": "EchoRead",
     "companyName": "ListenUp Media",
     "id": 28,
@@ -504,7 +504,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app29/300/300",
+    "image": "https://i.ibb.co/67s5hB4h/demo-app-6.webp",
     "title": "MuseMind",
     "companyName": "IdeaCore",
     "id": 29,
@@ -522,7 +522,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app30/300/300",
+    "image": "https://i.ibb.co/67s5hB4h/demo-app-3.webp",
     "title": "SoundNest",
     "companyName": "WaveCraft Audio",
     "id": 30,
