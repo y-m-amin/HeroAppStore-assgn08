@@ -29,13 +29,14 @@ const Installed = () => {
     setSortBy(criteria);
     let sorted = [...apps];
 
-    if (criteria === 'Downloads') {
+    if (criteria === 'High-Low') {
       sorted.sort((a, b) => b.downloads - a.downloads);
-    } else if (criteria === 'Ratings') {
-      sorted.sort((a, b) => b.ratingAvg - a.ratingAvg);
-    } else if (criteria === 'Size') {
-      sorted.sort((a, b) => b.size - a.size);
+    } else if (criteria === 'Low-High') {
+      sorted.sort((a, b) => a.downloads - b.downloads);
     }
+    // } else if (criteria === 'Size') {
+    //   sorted.sort((a, b) => b.size - a.size);
+    // }
 
     setApps(sorted);
   };
@@ -58,14 +59,14 @@ const Installed = () => {
             className='dropdown-content menu bg-base-100 rounded-box z-[1] w-40 p-2 shadow-sm'
           >
             <li>
-              <button onClick={() => handleSort('Downloads')}>Downloads</button>
+              <button onClick={() => handleSort('High-Low')}>High-Low</button>
             </li>
             <li>
-              <button onClick={() => handleSort('Ratings')}>Ratings</button>
+              <button onClick={() => handleSort('Low-High')}>Low-High</button>
             </li>
-            <li>
+            {/* <li>
               <button onClick={() => handleSort('Size')}>Size</button>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
