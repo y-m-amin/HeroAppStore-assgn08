@@ -6,7 +6,7 @@ import { formatDlNumber } from '../../utilities/formatDlNumber';
 import { FiDownload } from 'react-icons/fi';
 import { FaStar } from 'react-icons/fa';
 import { MdReviews } from 'react-icons/md';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, Tooltip,ResponsiveContainer } from 'recharts';
 import AppNotFoundPage from '../ErrPage/AppNotFound';
 
 const AppDetails = () => {
@@ -41,7 +41,7 @@ const AppDetails = () => {
           className='w-48 h-48 md:w-80 md:h-80 object-cover rounded-lg shadow-md'
         />
 
-        <div className='flex flex-col items-start'>
+        <div className='flex flex-col items-center xl:items-start'>
           <h2 className='text-3xl font-bold mt-2'>{app.title}</h2>
           <p className='text-gray-600 mb-4 '>Developed by {app.companyName}</p>
 
@@ -82,24 +82,19 @@ const AppDetails = () => {
       </div>
 
       {/*   rechart chart   */}
-      <div className='flex justify-center  my-10'>
-        <BarChart
-          width={1200}
-          height={350}
-          data={[...ratingData].reverse()}
-          layout='vertical'
-          margin={{ top: 20, right: 30, left: 50, bottom: 5 }}
-        >
-          <XAxis type='number' axisLine={false} tickLine={false} />
-          <YAxis
-            dataKey='name'
-            type='category'
-            axisLine={false}
-            tickLine={false}
-          />
-          <Tooltip cursor={{ fill: 'transparent' }} />
-          <Bar dataKey='count' fill='#FF8811' barSize={28} />
-        </BarChart>
+       <div className='w-full h-[400px] mt-16'>
+        <ResponsiveContainer width='100%' height='100%'>
+          <BarChart
+            data={[...ratingData].reverse()}
+            layout='vertical'
+            margin={{ top: 20, right: 30, left: 50, bottom: 5 }}
+          >
+            <XAxis type='number' axisLine={false} tickLine={false} />
+            <YAxis dataKey='name' type='category' axisLine={false} tickLine={false} />
+            <Tooltip cursor={{ fill: 'transparent' }} />
+            <Bar dataKey='count' fill='#FF8811' barSize={28} />
+          </BarChart>
+        </ResponsiveContainer>
       </div>
 
       <div className='border-t border-gray-200 pt-6'>

@@ -52,7 +52,7 @@ const Installed = () => {
 
         <div className='dropdown dropdown-start'>
           <div tabIndex={0} role='button' className='btn m-1'>
-            Sort By {sortBy ? `(${sortBy})` : '()'}
+            Sort By {sortBy ? `(${sortBy})` : '(Download)'}
           </div>
           <ul
             tabIndex={0}
@@ -72,7 +72,7 @@ const Installed = () => {
       </div>
 
       {apps.length ? (
-        <ul className='list bg-base-100 rounded-box shadow-md'>
+        <ul className='list bg-base-100 rounded-box shadow-md p-2 m-4'>
           {apps.map((app) => (
             <li key={app.id} className='list-row items-center'>
               <div>
