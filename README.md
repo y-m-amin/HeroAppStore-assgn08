@@ -25,6 +25,7 @@ It includes custom error pages, formatted statistics (like download counts), and
 | **React Toastify** | Lightweight notifications for success/error messages | [React Toastify](https://fkhadra.github.io/react-toastify/introduction) |
 | **React Loading Skeleton** | Placeholder loading skeleton for better UX | [React Loading Skeleton](https://github.com/dvtng/react-loading-skeleton) |
 | **Recharts** | A composable charting library built on react components | [Recharts](https://recharts.org/en-US/guide/installation) |
+| **React Loading Indicators** | A lightweight react loading component library | [React Loading Indicators](https://react-loading-indicators.netlify.app/) |
 
 ---
 
