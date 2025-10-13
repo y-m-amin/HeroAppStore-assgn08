@@ -22,12 +22,12 @@ const AllApps = () => {
 
   
   useEffect(() => {
-    if (isLoading) return;
-    setIsSearching(true);
+  if (isLoading || search.trim() === "") return;
+  setIsSearching(true);
 
-    const timer = setTimeout(() => setIsSearching(false), 400);
-    return () => clearTimeout(timer);
-  }, [search, isLoading]);
+  const timer = setTimeout(() => setIsSearching(false), 400);
+  return () => clearTimeout(timer);
+}, [search]);
 
   
   const filtered = apps.filter((a) =>
@@ -45,7 +45,8 @@ const AllApps = () => {
   );
 
   
-  const showSkeletons = isLoading || isSearching;
+  const showSkeletons = isLoading || (isSearching && search.trim() !== "");
+
 
   return (
     <SkeletonTheme baseColor="#e0e0e0" highlightColor="#f5f5f5">

@@ -8,14 +8,22 @@ import 'react-toastify/dist/ReactToastify.css';
 import { FiDownload } from 'react-icons/fi';
 import { FaStar } from 'react-icons/fa';
 import { formatDlNumber } from '../../utilities/formatDlNumber';
+import { Mosaic } from "react-loading-indicators";
+import { Link } from 'react-router';
 
 const Installed = () => {
   const [apps, setApps] = useState([]);
   const [sortBy, setSortBy] = useState('');
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const stored = getInstalledApps();
-    setApps(stored);
+    const timer = setTimeout(() => {
+      const stored = getInstalledApps();
+      setApps(stored);
+      setIsLoading(false);
+    }, 1000); 
+
+    return () => clearTimeout(timer);
   }, []);
 
   const handleUninstall = (id, title) => {
@@ -24,7 +32,6 @@ const Installed = () => {
     toast.success(`${title} uninstalled successfully!`);
   };
 
-  // Sorting logic
   const handleSort = (criteria) => {
     setSortBy(criteria);
     let sorted = [...apps];
@@ -34,12 +41,17 @@ const Installed = () => {
     } else if (criteria === 'Low-High') {
       sorted.sort((a, b) => a.downloads - b.downloads);
     }
-    // } else if (criteria === 'Size') {
-    //   sorted.sort((a, b) => b.size - a.size);
-    // }
 
     setApps(sorted);
   };
+
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex justify-center items-center">
+        <Mosaic color="#704cc3" size="large" text="LOADING" textColor="#6b479b" />
+      </div>
+    );
+  }
 
   return (
     <div className='max-w-3xl mx-auto my-10'>
@@ -64,9 +76,6 @@ const Installed = () => {
             <li>
               <button onClick={() => handleSort('Low-High')}>Low-High</button>
             </li>
-            {/* <li>
-              <button onClick={() => handleSort('Size')}>Size</button>
-            </li> */}
           </ul>
         </div>
       </div>
@@ -84,7 +93,9 @@ const Installed = () => {
               </div>
 
               <div className='flex flex-col'>
+                <Link to={`/apps/${app.id}`}>
                 <div className='font-semibold'>{app.title}</div>
+                </Link>
 
                 <div className='flex gap-2 mt-1'>
                   <div className='text-sm text-[#00D390]  flex items-center gap-1 py-1 px-2 rounded-sm'>

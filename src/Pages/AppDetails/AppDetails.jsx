@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import { useParams, useLoaderData } from 'react-router';
 import { installApp, isAppInstalled } from '../../utilities/loacalStorageUtils';
 import { ToastContainer, toast } from 'react-toastify';
@@ -8,16 +8,28 @@ import { FaStar } from 'react-icons/fa';
 import { MdReviews } from 'react-icons/md';
 import { BarChart, Bar, XAxis, YAxis, Tooltip,ResponsiveContainer } from 'recharts';
 import AppNotFoundPage from '../ErrPage/AppNotFound';
+import { Mosaic } from "react-loading-indicators";
 
 const AppDetails = () => {
   const { id } = useParams();
   const data = useLoaderData();
 
-  const app = data.find((a) => a.id === parseInt(id));
+  const app = data?.find((a) => a.id === parseInt(id));
 
-  if (!app) return <AppNotFoundPage />;
+const [loading, setLoading] = useState(true);
+const [installed, setInstalled] = useState(false);
 
-  const [installed, setInstalled] = useState(isAppInstalled(app.id));
+// added a forced delay because using useLoaderData does not show the loader
+useEffect(() => {
+  if (app) {
+    const timer = setTimeout(() => {
+      setLoading(false);
+      setInstalled(isAppInstalled(app.id));
+    }, 1000); 
+
+    return () => clearTimeout(timer);
+  }
+}, [app]);
 
   const notify = (title) => toast(`${title} installed successfully!`);
 
@@ -27,10 +39,21 @@ const AppDetails = () => {
     notify(app.title);
   };
 
+  if (loading) {
+    return (
+      <div className="min-h-screen flex justify-center items-center">
+        <Mosaic color="#704cc3" size="large" text="LOADING" textColor="#6b479b" />
+      </div>
+    );
+  }
+
+  if (!app) return <AppNotFoundPage />;
+
   const ratingData = app.ratings.map((r) => ({
     name: r.name,
     count: r.count,
   }));
+
 
   return (
     <div className='max-w-6xl mx-auto px-4 my-10'>
