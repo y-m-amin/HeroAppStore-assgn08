@@ -58,5 +58,9 @@ Make sure you have the following installed before running the project:
    ```sh
    npm run dev
    ```
+## 🌐 Live Demo Link
 
+You can visit the live deployed version of Hero Apps here:
+
+👉 [Hero Apps](https://spontaneous-empanada-a1d9b7.netlify.app/)
 
